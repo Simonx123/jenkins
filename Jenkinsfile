@@ -15,7 +15,7 @@ pipeline {
         stage("Build image") {
             steps {
                 script {
-                    myapp = docker.build("DOCKER-HUB-USERNAME/hello:${env.BUILD_ID}")
+                    myapp = docker.build("hycloudsim/hello:${env.BUILD_ID}")
                 }
             }
         }
