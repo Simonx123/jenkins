@@ -3,7 +3,7 @@ pipeline {
     environment {
         PROJECT_ID = 'infrac-proj1-s85'
         CLUSTER_NAME = 'cluster-1'
-        LOCATION = 'us-east1-d'
+        LOCATION = 'us-central1-c'
         CREDENTIALS_ID = 'infrac-proj1'
     }
     stages {
